@@ -4,6 +4,7 @@ Hotel Management app
 uses:
 React, express, node, mysql
 
+Install mysql server
 
 libraries:
 ---FrontEnd---
