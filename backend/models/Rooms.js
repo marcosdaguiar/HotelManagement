@@ -1,6 +1,8 @@
 module.exports = (sequelize, DataTypes) => {
 
-    const Rooms = sequelize.define("Rooms", {
+const Room = sequelize.define(
+    'rooms',
+    {
         room_id: {
             type: DataTypes.INTEGER,
             allowNull: false,
@@ -35,6 +37,5 @@ module.exports = (sequelize, DataTypes) => {
             allowNull: false,
         },
     });
-
-    return Rooms;
+    return Room;
 }
